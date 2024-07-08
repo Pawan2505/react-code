@@ -12,7 +12,13 @@ function IntervalHookCounter() {
       clearInterval(interval);
     };
   }, [count]);
-  return <div>{count}</div>;
+
+  return (
+    <div>
+      <div>{count}</div>
+      {/* <button onClick={tick}>Click</button> */}
+    </div>
+  );
 }
 
 export default IntervalHookCounter;

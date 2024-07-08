@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+// import HookMouse from "./component/HookMouse";
 import FetchingData from "./component/FetchingData";
 // import UseEffectCounter from "./component/UseEffectCounter";
 // import ClassMouse from "./component/ClassMouse";
@@ -12,10 +13,11 @@ function App() {
     <div className="App">
       {/* <UseEffectCounter/> */}
       {/* <ClassMouse /> */}
-      {/* <ClassCounterOne/> */}
+      {/* <ClassCounterOne /> */}
       {/* <IntervalClassCounter /> */}
       {/* <IntervalHookCounter /> */}
       <FetchingData />
+      {/* <HookMouse /> */}
     </div>
   );
 }

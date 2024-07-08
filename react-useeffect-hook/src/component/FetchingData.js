@@ -41,7 +41,7 @@ function FetchingData() {
             })}
           </tbody>
         </table>
-      </div>
+      </div>   
     </div>
   );
 }
