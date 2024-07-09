@@ -18,8 +18,8 @@ function App() {
       {/* <ApphandleClick/> */}
       {/* <Bind /> */}
       {/* <ConditionamRendering /> */}
-      {/* <PassingArguments/> */}
-      <TernaryOperator/>
+      {/* <PassingArguments /> */}
+      <TernaryOperator />
     </div>
   );
 }
