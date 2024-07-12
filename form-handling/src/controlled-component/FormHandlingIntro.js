@@ -17,14 +17,14 @@ function FormHandlingIntro() {
           placeholder="enter name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-        />{" "}
+        />
         <br />
         <br />
         <select onChange={(e) => setInterest(e.target.value)}>
           <option>Select Options</option>
           <option>Marvel</option>
           <option>DC</option>
-        </select>{" "}
+        </select>
         <br />
         <br />
         <input type="checkbox" onChange={(e) => setTnc(e.target.checked)} />
