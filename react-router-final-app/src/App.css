@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  line-height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 24px;
+  cursor: pointer;
+}

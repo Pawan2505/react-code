@@ -1,0 +1,12 @@
+nav{
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 1px;
+  
+}
