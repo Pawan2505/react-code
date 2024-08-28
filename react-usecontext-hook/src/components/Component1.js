@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { counterContext } from "../context/context";
+import { counterContext } from "../context/Context";
 
 const Component1 = () => {
   const value = useContext(counterContext);
